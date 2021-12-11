@@ -14,9 +14,9 @@ data.forEach((row, yIndex) => {
     if (
       (top === undefined || top > num)
       && (bottom === undefined || bottom > num)
-      && (left === undefined || left > num)
-      && (right === undefined || right > num)
-    ) { sumSmokePots += num + 1 }
+      && (left === undefined || left > num)
+      && (right === undefined || right > num)
+    ) { sumSmokePots += num + 1 }
   })
 })
 

@@ -21,11 +21,11 @@ pipes.forEach((pipe) => {
 
   addToGrid(x, y)
 
-  while (x !== pipe.x2 || y !== pipe.y2) {
-    if (x < pipe.x2) { x += 1 }
+  while (x !== pipe.x2 || y !== pipe.y2) {
+    if (x < pipe.x2) { x += 1 }
     if (x > pipe.x2) { x -= 1 }
 
-    if (y < pipe.y2) { y += 1 }
+    if (y < pipe.y2) { y += 1 }
     if (y > pipe.y2) { y -= 1 }
 
     addToGrid(x, y)

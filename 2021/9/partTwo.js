@@ -42,8 +42,8 @@ data.forEach((row, yIndex) => {
     if (
       (top === undefined || top > num)
       && (bottom === undefined || bottom > num)
-      && (left === undefined || left > num)
-      && (right === undefined || right > num)
+      && (left === undefined || left > num)
+      && (right === undefined || right > num)
     ) {
       basins.push(getBasin(num, xIndex, yIndex))
     }
